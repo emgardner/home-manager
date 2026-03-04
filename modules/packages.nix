@@ -1,0 +1,30 @@
+{ pkgs, ... }:
+{
+  home.packages = with pkgs; [
+    cargo
+    rustc
+    rust-analyzer
+    gcc
+    pkg-config
+    openssl
+    tmux
+    uv
+    deno
+    google-chrome
+    opencode
+    ripgrep
+    unzip
+    bat
+    eza
+    fd
+    fzf
+    gh
+    htop
+    jq
+    tree
+    claude-code
+    codex
+    nodejs
+    ghostty
+  ];
+}
