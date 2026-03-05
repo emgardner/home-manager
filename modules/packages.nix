@@ -1,10 +1,12 @@
-{ pkgs, ... }:
-{
+{pkgs, ...}: {
   home.packages = with pkgs; [
+    asciinema
     cargo
+    curl
+    rsync
+    gcc
     rustc
     rust-analyzer
-    gcc
     pkg-config
     openssl
     tmux
@@ -26,5 +28,15 @@
     codex
     nodejs
     ghostty
+    gnumake
+    alejandra
+    stylua
+    neofetch
+    nodePackages.prettier
+    yazi
+    go
+    lld
+    element-desktop
+    zulip
   ];
 }

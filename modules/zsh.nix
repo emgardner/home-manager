@@ -1,6 +1,4 @@
-{ lib, ... }:
-
-{
+{lib, ...}: {
   programs.zsh = {
     enable = true;
     enableCompletion = true;
@@ -10,7 +8,7 @@
 
     oh-my-zsh = {
       enable = true;
-      plugins = [ "git" "thefuck" ];
+      plugins = ["git" "thefuck"];
       theme = "robbyrussell";
     };
 
