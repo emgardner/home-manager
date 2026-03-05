@@ -38,5 +38,6 @@
     lld
     element-desktop
     zulip
+    typos
   ];
 }
