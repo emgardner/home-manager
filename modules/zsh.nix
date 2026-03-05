@@ -46,6 +46,7 @@
       alias g="git"
       alias gs="git status"
       alias gc="git commit"
+      alias gcs="git commit -m \"sync\""
       alias gp="git push"
       alias cdp="cd ~/projects"
       alias eh="nvim ~/.config/home-manager/home.nix"
